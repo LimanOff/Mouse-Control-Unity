@@ -4,7 +4,7 @@ public class CameraScript : MonoBehaviour
 {
     [Range(100,400f)] public float Sensitivity;
 
-    [SerializeField] GameObject Player; // you can remove this field if you dont have model a Player
+    [SerializeField] GameObject Player; // you can delete this field if you don't have a player model.
 
     float xRotation; 
     float yRotation;
